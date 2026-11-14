@@ -1,24 +1,54 @@
-# Python_Project201 [PIAIC PROJECTS OF QUARTER 1]
+<div align="center">
 
-LEARN MODERN AI PYTHON
+# 🐍 Python Project 101
 
-Once we have covered the basic and intermediate projects we will do the following advanced projects in online classes:
+**Beginner Python projects from PIAIC Quarter 1 (Modern AI Python)**
 
-Online Class Project 1:GUESS FAVOURITE PERSON
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Run%20in-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 
-Online Class Project 3:GUESS  RANDOM NUMBER
+</div>
 
-Online Class Project 4:ROCK,PAPER SCIESSOR
+---
 
-Online Class Project 5: HANGMAN
+Each project is a self-contained Jupyter notebook. Click **Open in Colab** to run it in your browser with nothing to install.
 
-Online Class Project 6: TIMER
+## 📂 Projects
 
-Online Class Project 7: GUESS PASSWORD
+| # | Project | What it does | Concepts | Run |
+|:-:|---------|--------------|----------|:---:|
+| 1 | [📝 Mad Libs](Project1.ipynb) | Fills your words into a funny story | f-strings, functions, input validation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hussain1847/Python_Project101/blob/main/Project1.ipynb) |
+| 3 | [🔢 Number Guessing](Project3.ipynb) | You guess the computer's number, or it guesses yours with binary search | `random`, loops, `try/except` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hussain1847/Python_Project101/blob/main/Project3.ipynb) |
+| 4 | [✂️ Rock, Paper, Scissors](Project4.ipynb) | Best-of-many against the computer, with a running score | dictionaries, game loops | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hussain1847/Python_Project101/blob/main/Project4.ipynb) |
+| 5 | [🪢 Hangman](Project5.ipynb) | Guess the word before the drawing is complete | sets, comprehensions, game state | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hussain1847/Python_Project101/blob/main/Project5.ipynb) |
+| 6 | [⏱️ Countdown Timer](Project6.ipynb) | Counts down from `90` or `1:30` | `time`, `divmod`, parsing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hussain1847/Python_Project101/blob/main/Project6.ipynb) |
+| 7 | [🔐 Password Generator](Project7.ipynb) | Strong passwords with every character type | `secrets`, `string` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hussain1847/Python_Project101/blob/main/Project7.ipynb) |
+| 8 | [⚖️ BMI Calculator](Project8.ipynb) | BMI with the WHO weight category | arithmetic, `if/elif` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hussain1847/Python_Project101/blob/main/Project8.ipynb) |
+| 9 | [📊 Data Explorer](Project9.ipynb) | Preview, filter and chart a CSV file | pandas, matplotlib | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hussain1847/Python_Project101/blob/main/Project9.ipynb) |
 
-Online Class Project 8: WEIGHT
+## 🚀 Run locally
 
-Online Class Project 9: MACHINE LEARING(DATA GRAPH SORTED)
+```bash
+git clone https://github.com/Hussain1847/Python_Project101.git
+cd Python_Project101
+pip install notebook pandas matplotlib
+jupyter notebook
+```
 
+Projects 1 to 8 use only the Python standard library. Project 9 needs `pandas` and `matplotlib`, and reads [`sample_data.csv`](sample_data.csv) when it is in the same folder.
 
+## 🛠️ Highlights
 
+- **Input validation everywhere:** typing letters where a number is expected asks again instead of crashing.
+- **Self-contained:** Hangman includes its own word list and drawings, so it no longer needs files on Google Drive.
+- **Secure passwords:** the generator uses `secrets` (built for security) instead of `random`.
+- **Correct BMI ranges:** no gaps between categories, so a BMI like 24.95 is labelled correctly.
+
+---
+
+<div align="center">
+
+Made with ❤️ by [Hussain1847](https://github.com/Hussain1847)
+
+</div>
